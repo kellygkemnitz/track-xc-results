@@ -1,0 +1,139 @@
+[
+    {
+        "Grade": "Sophomore",
+        "Date": "2022-09-10",
+        "Meet": "Emporia Cross Country Invitational (JV)",
+        "Event": "5K",
+        "Individual Place": "35th",
+        "Time": "24:19.4"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "2022-09-24",
+        "Meet": "Rim Rock Farm High School Classic (V)",
+        "Event": "5K",
+        "Individual Place": "133rd",
+        "Time": "23:08.8"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "2022-10-01",
+        "Meet": "Bishop Carrol Invitational (V)",
+        "Event": "5K",
+        "Individual Place": "38th",
+        "Time": "22:20.0"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "2022-10-15",
+        "Meet": "AVCTL League (V)",
+        "Event": "5K",
+        "Individual Place": "27th",
+        "Time": "21:47.4"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "2022-10-22",
+        "Meet": "KSHSAA 5A Regionals (V)",
+        "Event": "5K",
+        "Individual Place": "30th",
+        "Time": "22:15.2"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "2023-08-31",
+        "Meet": "Great Bend Invitational (V)",
+        "Event": "5K",
+        "Individual Place": "40th",
+        "Team Place": "4th",
+        "Time": "23:08.7"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "2023-09-09",
+        "Meet": "Emporia Invitational (V)",
+        "Event": "5K",
+        "Individual Place": "73rd",
+        "Team Place": "4th",
+        "Time": "23:48.4"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "2023-09-22",
+        "Meet": "Rim Rock Classic (V)",
+        "Event": "5K",
+        "Individual Place": "129th",
+        "Team Place": "4th",
+        "Time": "23:36.0"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "2023-10-13",
+        "Meet": "AVCTL League - Salina (V)",
+        "Event": "5K",
+        "Individual Place": "25th",
+        "Team Place": "5th",
+        "Time": "22:53.6"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "2023-10-21",
+        "Meet": "Regionals - Bishop Carrol (V)",
+        "Event": "5K",
+        "Individual Place": "30th",
+        "Team Place": "5th",
+        "Time": "22:49.0"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "2023-11-12",
+        "Meet": "NXR Heartland Regional",
+        "Event": "5K",
+        "Individual Place": "143rd",
+        "Team Place": "5th",
+        "Time": "22:05.1"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "2024-10-05",
+        "Meet": "The Rush at Brown Thrush Invitational (V)",
+        "Event": "5K",
+        "Individual Place": "44th",
+        "Team Place": "8th",
+        "Time": "22:35.8"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "2024-10-12",
+        "Meet": "Wild Wind XC Festival (V)",
+        "Event": "5K",
+        "Individual Place": "52nd",
+        "Time": "22:48.0"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "2024-10-19",
+        "Meet": "AVCTL League (JV)",
+        "Event": "5K",
+        "Individual Place": "1st",
+        "Time": "21:08.6"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "2024-10-26",
+        "Meet": "KSHSAA 6A Regionals - Hutchinson",
+        "Event": "5K",
+        "Individual Place": "8th",
+        "Team Place": "3rd",
+        "Time": "21:34.9"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "2024-11-02",
+        "Meet": "KSHSAA 6A State - Rim Rock",
+        "Event": "5K",
+        "Individual Place": "67th",
+        "Team Place": "3rd",
+        "Time": "21:25.8"
+    }
+]
