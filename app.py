@@ -4,7 +4,6 @@ import dash
 from dash import dash_table
 from dash import dcc
 from dash import html
-from dash.dependencies import Input, Output
 
 
 app = dash.Dash(__name__)
