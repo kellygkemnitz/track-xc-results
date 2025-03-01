@@ -70,17 +70,25 @@ class Track:
 
     def _convert_to_df(self, file_path):
         try:
-            df = pd.read_json(self._track_data)
+            df = pd.read_json(file_path)
             return df
         except FileNotFoundError as e:
-            print (f'Error {e}')
+            print(f'Error: {e}')
             return None
         except Exception as e:
             print(f'An unexpected error occurred: {e}')
             return None
         
     def _times_to_seconds(self, track_df):
-        track_df['Seconds'] = track_df['Individual Time'].apply(lambda x: int(x.split(':')[0]) * 60 + float(x.split(':')[1]))
+        def convert_time(time_str):
+            if isinstance(time_str, float):
+                return time_str
+            time_parts = time_str.split(':')
+            minutes = int(time_parts[0])
+            seconds = float(time_parts[1])
+            return minutes * 60 + seconds
+        
+        track_df['Seconds'] = track_df['Individual Time'].apply(convert_time)
         return track_df
 
     def _create_track_plots(self, track_results):

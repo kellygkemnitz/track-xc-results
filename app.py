@@ -1,9 +1,10 @@
+from modules.race_results import CrossCountry, Track
+
 import dash
 from dash import dash_table
 from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
-from modules.race_results import CrossCountry, Track
 
 app = dash.Dash(__name__)
 app.title = "Race Times Dashboard"
