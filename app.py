@@ -1,4 +1,5 @@
-from modules.race_results import CrossCountry, Track
+from modules.xc_results import CrossCountry
+from modules.track_results import Track
 
 import dash
 from dash import dash_table
