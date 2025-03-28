@@ -3,14 +3,13 @@ import pandas as pd
 
 class Track:
     def __init__(self):
-        self._track_data = 'data/track-results.json'
-        self._track_df = self._convert_to_df(self._track_data)
-        self._race_times = self._times_to_seconds(self._track_df)
-        self._create_track_plots = self._create_track_plots(self._race_times)
+        self.track_data = 'data/track-results.json'
+        self.track_df = self._convert_to_df(self.track_data)
+        self.track_results = self._times_to_seconds(self.track_df)
 
-    def _convert_to_df(self, file_path):
+    def _convert_to_df(self, track_data):
         try:
-            df = pd.read_json(self._track_data)
+            df = pd.read_json(track_data)
             return df
         except FileNotFoundError as e:
             print (f'Error {e}')
@@ -20,43 +19,56 @@ class Track:
             return None
         
     def _times_to_seconds(self, track_df):
-        track_df['Seconds'] = track_df['Individual Time'].apply(lambda x: int(x.split(':')[0]) * 60 + float(x.split(':')[1]) if pd.notna(x) else x)
+        track_df['Seconds'] = track_df['Individual Time'].apply(lambda x: int(x.split(':')[0]) * 60 + float(x.split(':')[1]) if pd.notna(x) else x).copy()
         return track_df
 
-    def _create_track_plots(self, track_results):
-        fig = go.Figure()
+    def create_track_plots(self, event_name):
+        track_fig = go.Figure()
 
-        track_results = track_results.sort_values('Date')
+        # Filter data by the specific event
+        track_results = self.track_results[self.track_results['Event'] == event_name].sort_values('Date')
 
-        hover_text = track_results.apply(lambda row:
-            f"Date: {row['Date']}<br>" +
-            f"Grade: {row['Grade']}<br>" +
-            f"Race: {row['Meet']}<br>" +
-            f"Time: {row['Individual Time']}", axis=1)
+        if track_results.empty:
+            print(f"No data available for event: {event_name}")
+            return None
 
-        fig.add_trace(go.Scatter(
-            x=track_results['Date'],
-            y=track_results['Seconds'],
-            mode='lines+markers',
-            name='Race Times',
-            line=dict(color='blue'),
-            marker=dict(size=8, color='blue'),
-            text=hover_text,
-            hoverinfo='text'
-        ))
-        
-        fig.update_layout(
-            title='Race History',
-            xaxis_title='Date',
+        # Loop through each unique grade within the event
+        for grade in track_results['Grade'].unique():
+            grade_results = track_results[track_results['Grade'] == grade]
+
+            # Create hover text for this grade
+            hover_text = grade_results.apply(lambda row:
+                f"Time: {row['Individual Time']}<br>" +
+                f"Date: {row['Date'].strftime('%Y-%m-%d')}<br>" +
+                f"Meet: {row['Meet']}<br>" +
+                f"Grade: {row['Grade']}", axis=1
+            )
+
+            # Add a trace for each grade
+            track_fig.add_trace(go.Scatter(
+                x=grade_results['Date'],
+                y=grade_results['Seconds'],
+                mode='lines+markers',
+                name=f'Grade {grade}',
+                line=dict(),
+                marker=dict(size=8),
+                text=hover_text,
+                hoverinfo='text'
+            ))
+
+        # Update layout for the graph
+        track_fig.update_layout(
+            title=f'{event_name} Results',
+            xaxis_title='Meet',
             yaxis_title='Time (seconds)',
             xaxis=dict(
                 type='category',
                 tickmode='array',
                 tickvals=track_results['Date'],
-                ticktext=track_results['Date'],
-                tickangle=45,
+                ticktext=track_results['Meet'],
+                tickangle=45
             ),
             hovermode='closest'
         )
-        
-        return fig
+
+        return track_fig
