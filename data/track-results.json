@@ -1,0 +1,247 @@
+[
+    {
+        "Grade": "Freshman",
+        "Date": "3/24/2022",
+        "Meet": "Northwest Invite (JV)",
+        "Event": "3200m",
+        "Individual Place": "6th",
+        "Individual Time": "14:46.00"
+    },
+    {
+        "Grade": "Freshman",
+        "Date": "4/5/2022",
+        "Meet": "Maize Invitational (JV)",
+        "Event": "3200m",
+        "Individual Place": "3rd",
+        "Individual Time": "14:37.70"
+    },
+    {
+        "Grade": "Freshman",
+        "Date": "4/12/2022",
+        "Meet": "Buhler Invitational (JV)",
+        "Event": "1600m",
+        "Individual Place": "7th",
+        "Individual Time": "7:00.27"
+    },
+    {
+        "Grade": "Freshman",
+        "Date": "4/12/2022",
+        "Meet": "Buhler Invitational (JV)",
+        "Event": "800m",
+        "Individual Place": "14th",
+        "Individual Time": "3:12.63"
+    },
+    {
+        "Grade": "Freshman",
+        "Date": "4/19/2022",
+        "Meet": "Wichita South Invite (JV)",
+        "Event": "4x800m Relay",
+        "Team Place": "1st",
+        "Individual Time": "2:58.06",
+        "Team Time": "11:52.92"
+    },
+    {
+        "Grade": "Freshman",
+        "Date": "4/19/2022",
+        "Meet": "Wichita South Invite (JV)",
+        "Event": "3200m",
+        "Individual Place": "4th",
+        "Individual Time": "14:37.78"
+    },
+    {
+        "Grade": "Freshman",
+        "Date": "4/29/2022",
+        "Meet": "Hutchinson Salthawk Track & Field Invitational (V)",
+        "Event": "3200m",
+        "Individual Place": "7th",
+        "Individual Time": "14:27.77"
+    },
+    {
+        "Grade": "Freshman",
+        "Date": "5/3/2022",
+        "Meet": "Maize Invite (JV)",
+        "Event": "4x800m Relay",
+        "Team Place": "1st",
+        "Individual Time": "02:56.57",
+        "Team Time": "11:54.31"
+    },
+    {
+        "Grade": "Freshman",
+        "Date": "5/3/2022",
+        "Meet": "Maize Invite (JV)",
+        "Event": "800m",
+        "Individual Place": "1st",
+        "Individual Time": "02:55.48"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "3/24/2023",
+        "Meet": "Southeast (V)",
+        "Event": "4x800m Relay",
+        "Team Place": "3rd",
+        "Individual Time": "03:07.60"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "3/24/2023",
+        "Meet": "Southeast (V)",
+        "Event": "3200m",
+        "Individual Place": "9th",
+        "Individual Time": "15:02.64"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "4/6/2023",
+        "Meet": "Maize (V)",
+        "Event": "3200m",
+        "Individual Place": "4th",
+        "Individual Time": "14:21.04"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "4/14/2023",
+        "Meet": "Manhattan (V)",
+        "Event": "3200m",
+        "Individual Place": "11th",
+        "Individual Time": "13:54.45"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "4/18/2023",
+        "Meet": "Wichita South (JV)",
+        "Event": "1600m",
+        "Individual Place": "7th",
+        "Individual Time": "7:06.32"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "4/18/2023",
+        "Meet": "Wichita South (JV)",
+        "Event": "4x800m Relay",
+        "Team Place": "1st",
+        "Team Time": "12:02.79"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "4/28/2023",
+        "Meet": "Hutchinson (V)",
+        "Event": "3200m",
+        "Individual Place": "8th",
+        "Individual Time": "13:35.21"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "5/2/2023",
+        "Meet": "Maize (JV)",
+        "Event": "1600m",
+        "Individual Place": "3rd",
+        "Individual Time": "06:27.92"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "5/2/2023",
+        "Meet": "Maize (JV)",
+        "Event": "800m",
+        "Individual Place": "4th",
+        "Individual Time": "02:57.95"
+    },
+    {
+        "Grade": "Sophomore",
+        "Date": "5/2/2023",
+        "Meet": "Maize (JV)",
+        "Event": "4x400m Relay",
+        "Team Place": "1st",
+        "Team Time": "04:52.70",
+        "Individual Time": "01:12.00"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "3/29/2024",
+        "Meet": "Emporia (V)",
+        "Event": "4x800m Relay",
+        "Team Place": "6th",
+        "Team Time": "11:16.60",
+        "Individual Time": "2:58.50"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "3/29/2024",
+        "Meet": "Emporia (V)",
+        "Event": "3200m",
+        "Individual Place": "18th",
+        "Individual Time": "13:43.90"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "4/5/2024",
+        "Meet": "Maize (V)",
+        "Event": "3200m",
+        "Individual Place": "10th",
+        "Individual Time": "13:36.80"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "4/12/2024",
+        "Meet": "Manhattan (V)",
+        "Event": "3200m",
+        "Individual Place": "5th",
+        "Individual Time": "13:24.47"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "4/19/2024",
+        "Meet": "Campus (V)",
+        "Event": "1600m",
+        "Individual Place": "10th",
+        "Individual Time": "06:13.90"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "4/26/2024",
+        "Meet": "Hutchinson (V)",
+        "Event": "4x800m Relay",
+        "Team Place": "4th",
+        "Individual Time": "02:55.00",
+        "Team Time": "11:05.18"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "4/26/2024",
+        "Meet": "Hutchinson (V)",
+        "Event": "3200m",
+        "Individual Place": "8th",
+        "Individual Time": "13:47.70"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "5/3/2024",
+        "Meet": "Goddard (V)",
+        "Event": "1600m",
+        "Individual Place": "11th",
+        "Individual Time": "06:14.40"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "5/10/2024",
+        "Meet": "AVCTL League - Maize South (V)",
+        "Event": "3200m",
+        "Individual Place": "5th",
+        "Individual Time": "13:18.60"
+    },
+    {
+        "Grade": "Junior",
+        "Date": "5/17/2024",
+        "Meet": "6A Regionals - Liberal (V)",
+        "Event": "3200m",
+        "Individual Place": "12th",
+        "Individual Time": "14:37.80"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "3/28/2025",
+        "Meet": "Southeast Invitational (V)",
+        "Event": "3200m",
+        "Individual Place": "4th",
+        "Individual Time": "13:42.86"
+    }
+]

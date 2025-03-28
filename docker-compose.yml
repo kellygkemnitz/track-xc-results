@@ -1,0 +1,10 @@
+services:
+  track-xc-results:
+    image: track-xc-results:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: track-xc-results
+    ports:
+      - '8004:8004/tcp'
+    restart: unless-stopped
