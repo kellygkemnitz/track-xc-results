@@ -10,6 +10,6 @@ COPY ./data /track-xc-results/data/
 COPY ./modules /track-xc-results/modules/
 COPY ./app /track-xc-results/app/
 
-EXPOSE 8004
+EXPOSE 8002
 
 CMD ["python3", "/track-xc-results/app/app.py"]
