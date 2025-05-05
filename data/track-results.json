@@ -267,5 +267,38 @@
         "Event": "1600m",
         "Individual Place": "5th",
         "Individual Time": "5:58.37"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "4/25/2025",
+        "Meet": "Campus High School Invitational (V)",
+        "Event": "4x800m Relay",
+        "Team Place": "3rd",
+        "Team Time": "10:44.68",
+        "Individual Time": "2:44"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "4/25/2025",
+        "Meet": "Campus High School Invitational (V)",
+        "Event": "3200m",
+        "Individual Place": "3rd",
+        "Individual Time": "12:51.27"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "5/2/2025",
+        "Meet": "Salthawk Track and Field Invitational (V)",
+        "Event": "800m",
+        "Individual Place": "21st",
+        "Individual Time": "2:45.40"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "5/2/2025",
+        "Meet": "Salthawk Track and Field Invitational (V)",
+        "Event": "1600m",
+        "Individual Place": "11th",
+        "Individual Time": "6:04.31"
     }
 ]
