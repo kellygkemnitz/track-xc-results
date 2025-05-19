@@ -316,5 +316,21 @@
         "Event": "3200m",
         "Individual Time": "12:40.45",
         "Individual Place": "9th"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "5/16/2025",
+        "Meet": "AVCTL League - Derby (V)",
+        "Event": "4x800m Relay",
+        "Team Place": "4th",
+        "Individual Time": "02:46.00"
+    },
+    {
+        "Grade": "Senior",
+        "Date": "5/16/2025",
+        "Meet": "AVCTL League - Derby (V)",
+        "Event": "3200m",
+        "Individual Place": "2nd",
+        "Individual Time": "13:02.68"
     }
 ]
